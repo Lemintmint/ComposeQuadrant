@@ -42,7 +42,7 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun DisplayComposable(): Unit {
+fun DisplayComposable():Unit {
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -60,6 +60,7 @@ fun DisplayComposable(): Unit {
                     .fillMaxSize()
             ) {
                 Column(
+                    horizontalAlignment = Alignment.CenterHorizontally,
                     modifier = Modifier
                         .align(Alignment.Center)
                         .padding(16.dp)
@@ -86,6 +87,7 @@ fun DisplayComposable(): Unit {
                     .fillMaxSize()
             ) {
                 Column(
+                    horizontalAlignment = Alignment.CenterHorizontally,
                     modifier = Modifier
                         .align(Alignment.Center)
                         .padding(16.dp)
@@ -116,6 +118,7 @@ fun DisplayComposable(): Unit {
                     .fillMaxSize()
             ) {
                 Column(
+                    horizontalAlignment = Alignment.CenterHorizontally,
                     modifier = Modifier
                         .align(Alignment.Center)
                         .padding(16.dp)
@@ -141,6 +144,7 @@ fun DisplayComposable(): Unit {
                     .fillMaxSize()
             ) {
                 Column(
+                    horizontalAlignment = Alignment.CenterHorizontally,
                     modifier = Modifier
                         .align(Alignment.Center)
                         .padding(16.dp)
